@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <div class="text-center">
+        <h3>
+            @ViewBag.Greeting World (from view)
+        </h3>
+        <p>
+            We're going to have an exciting party.<br />
+            (To do: sell it better. Add pictures or something.)
+        </p>
+        <a class="btn btn-primary" asp-action="RsvpFrom">RSVP Now</a>
+    </div>
+</body>
+</html>
+
